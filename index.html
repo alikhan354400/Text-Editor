@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text Editor</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  
+    <div class="editor-container">
+        <h1>Text Editor</h1>
+        <div class="controls">
+            <button id="increaseBtn">+</button>
+            <button id="decreaseBtn">-</button>
+
+            <select id="fontSizeDropdown">
+                <option value="12">12px</option>
+                <option value="16" selected>16px</option>
+                <option value="20">20px</option>
+                <option value="24">24px</option>
+                <option value="28">28px</option>
+            </select>
+
+            <select id="fontFamilyDropdown">
+                <option value="Arial">Arial</option>
+                <option value="Times New Roman">Times New Roman</option>
+                <option value="Courier New">Courier New</option>
+                <option value="Georgia">Georgia</option>
+                <option value="Verdana">Verdana</option>
+            </select>
+
+            <button id="boldBtn">Bold</button>
+        </div>
+
+        <textarea id="textArea" placeholder="Type your text here..."></textarea>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
